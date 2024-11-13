@@ -1,30 +1,24 @@
-
-  // Inicializa o EmailJS com a chave pública
   (function() {
-    emailjs.init("3qeW_wLmuQXVhICss"); // Substitua pela sua chave pública
+    emailjs.init("3qeW_wLmuQXVhICss"); 
   })();
 
-  const btn = document.getElementById('btn-entrar-contato');  // O botão para envio
-
-  // Adicionando o evento de envio do formulário
+  const btn = document.getElementById('btn-entrar-contato');  
 
   document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Previne o comportamento padrão do formulário
+    event.preventDefault(); 
 
-    btn.innerText = 'Enviando...';  // Altera o texto do botão para indicar que está enviando
+    btn.innerText = 'Enviando...';  
 
-    const serviceID = 'service_gto6qzz';  // Substitua pelo seu service ID
-    const templateID = 'template_jdhjzga';  // Substitua pelo seu template ID
+    const serviceID = 'service_gto6qzz';  
+    const templateID = 'template_jdhjzga';  
 
-    // Envia o formulário usando o método sendForm do EmailJS
     emailjs.sendForm(serviceID, templateID, this)
       .then(function() {
-        btn.innerText = 'Mensagem Enviada';  // Altera o texto para indicar sucesso
+        btn.innerText = 'Mensagem Enviada';  
         alert('Mensagem enviada com sucesso!');
-        document.getElementById('form').reset();  // Limpa o formulário
+        document.getElementById('form').reset();  
       }, function(err) {
-        btn.innerText = 'Enviar Mensagem';  // Restaura o texto do botão em caso de erro
+        btn.innerText = 'Enviar Mensagem';  
         alert('Erro ao enviar a mensagem: ' + JSON.stringify(err));
       });
   });
-
