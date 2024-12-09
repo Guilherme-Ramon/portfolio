@@ -37,6 +37,10 @@ h1 span {
     color: #00ff08;
 }
 
+.nav-link-custom, .link-redes-socias {
+    font-size: 20px !important;
+}
+
 /* Estilizando a imagem */
 .sobre-img {
     max-width: 100%;
