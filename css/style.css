@@ -145,6 +145,14 @@ h1 span {
   }
 }
 
+@media (min-height: 600px) {
+    #habilidades,
+    #contato {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
 #btn-entrar-contato, .btn-custom-form {
   padding: 10px 40px !important;
   background-color: #00ff08 !important;
