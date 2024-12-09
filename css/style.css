@@ -1,170 +1,202 @@
 /* Estilizando a barra de navegação */
 body {
-  background-color: #1c1c1c !important;
-  color: #fff !important;
+    background-color: #1c1c1c !important;
+    color: #fff !important;
 }
 
 .navbar-custom {
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 
 .navbar-toggler:focus {
-  box-shadow: none !important;
-  outline: none !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 .navbar {
-  transition: top 0.3s;
+    transition: top 0.3s;
 }
 
 .nav-link-custom {
-  color: white !important;
+    color: white !important;
 }
 
 .nav-link-custom:hover {
-  color: #00ff08 !important;
-  transform: scale(1.05);
+    color: #00ff08 !important;
+    transform: scale(1.05);
 }
 
 .nome-titulo {
-  font-weight: 700;
-  font-size: 44px;
+    font-weight: 700;
+    font-size: 44px;
 }
 
 h1 span {
-  color: #00ff08;
+    color: #00ff08;
 }
 
 /* Estilizando a imagem */
 .sobre-img {
-  max-width: 100%;
-  border-radius: 50%;
-  position: relative;
-  animation: flutuar 2s ease-in-out infinite alternate;
+    max-width: 100%;
+    border-radius: 50%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 /* Animação de flutuar */
 @keyframes flutuar {
-  from {
-    top: 0;
-  }
-  to {
-    top: 30px;
-  }
+    from {
+        top: 0;
+    }
+    to {
+        top: 30px;
+    }
 }
 
 /* Cards */
 .card {
-  background: none !important;
-  border: none;
-  transition: 0.2s;
-  color: white !important;
-  position: relative;
-  opacity: 0.5;
+    background: none !important;
+    border: none;
+    transition: 0.2s;
+    color: white !important;
+    position: relative;
+    opacity: 0.5;
 }
 
 .card-projeto:hover {
-  box-shadow: 0 0 30px #ffffff78;
-  opacity: 1;
-  transition: 0.3s;
+    box-shadow: 0 0 30px #ffffff78;
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .card img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .card:hover .hover-text {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* Barra de habilidades */
 .skill-bar {
-  height: 30px;
-  margin-bottom: 15px;
+    height: 30px;
+    margin-bottom: 15px;
 }
 
 /* Títulos */
 .titulo-verde {
-  color: #00ff08;
+    color: #00ff08;
 }
 
 .titulo {
-  font-size: 42px;
-  font-weight: 500;
+    font-size: 42px;
+    font-weight: 500;
 }
 
 /* Projetos */
 #projetos > div {
-  border: none;
+    border: none;
 }
 
 /* Estilo geral do card de projeto */
 .card-projeto {
-  transition: 0.9s !important;
+    transition: 0.9s !important;
 }
 
 .card-img-top,
 .scroll-projeto,
 .hover-text,
 .card-projeto {
-  border-radius: 10px !important;
-  background: none;
-  border: none !important;
+    border-radius: 10px !important;
+    background: none;
+    border: none !important;
 }
 
 .card-projeto:hover {
-  box-shadow: 0 0 30px #ffffff78;
-  opacity: 1 !important;
+    box-shadow: 0 0 30px #ffffff78;
+    opacity: 1 !important;
 }
 
 @media (min-width: 768px) {
-  #btn-contato {
-    padding: 10px 40px;
-    background-color: #00ff08;
-    transition: 0.2s;
-    border-radius: 30px;
-    font-weight: 500;
-    color: black !important;
-  }
+    #btn-contato {
+        padding: 10px 40px;
+        background-color: #00ff08;
+        transition: 0.2s;
+        border-radius: 30px;
+        font-weight: 500;
+        color: black !important;
+    }
 
-  #btn-contato:hover {
-    box-shadow: 0 0 10px #00ff45d4;
-    transform: scale(1.2);
-    color: white !important;
-  }
-}
-
-@media (max-width: 768px) {
-  #habilidades,
-  #contato {
-    margin-top: 150px !important;
-    margin-bottom: 150px !important;
-  }
-}
-
-@media (min-height: 768px) {
-    #habilidades,
-    #contato {
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-        height: auto !important;
+    #btn-contato:hover {
+        box-shadow: 0 0 10px #00ff45d4;
+        transform: scale(1.2);
+        color: white !important;
     }
 }
 
-#btn-entrar-contato, .btn-custom-form {
-  padding: 10px 40px !important;
-  background-color: #00ff08 !important;
-  transition: 0.2s !important;
-  border-radius: 30px !important;
-  font-weight: 500 !important;
-  color: black !important;
+@media (max-width: 768px) {
+    #habilidades,
+    #contato {
+        margin-top: 150px !important;
+        margin-bottom: 150px !important;
+    }
 }
 
-#btn-entrar-contato:hover, .btn-custom-form:hover {
-  box-shadow: 0 0 10px #00ff45d4 !important;
-  transform: scale(1.2) !important;
-  color: white !important;
+@media (max-width: 300px) {
+    header {
+        margin-top: 150px !important;
+        margin-bottom: 300px !important;
+    }
+    section {
+        margin-top: 300px !important;
+        margin-bottom: 300px !important;
+    }
+}
+
+@media (max-width: 150px) {
+    header {
+        margin-top: 300px !important;
+        margin-bottom: 350px !important;
+    }
+    section {
+        margin-top: 450px !important;
+        margin-bottom: 400px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .vh-md-100 {
+        height: 100vh;
+    }
+}
+
+#cabecalho-contato-curriculo {
+    height: 100vh; /* Padrão para telas menores */
+}
+
+@media (min-width: 1200px) {
+    #cabecalho-contato-curriculo {
+        height: 768px !important; /* Altura para telas maiores */
+    }
+}
+
+
+#btn-entrar-contato,
+.btn-custom-form {
+    padding: 10px 40px !important;
+    background-color: #00ff08 !important;
+    transition: 0.2s !important;
+    border-radius: 30px !important;
+    font-weight: 500 !important;
+    color: black !important;
+}
+
+#btn-entrar-contato:hover,
+.btn-custom-form:hover {
+    box-shadow: 0 0 10px #00ff45d4 !important;
+    transform: scale(1.2) !important;
+    color: white !important;
 }
