@@ -1,4 +1,8 @@
 /* Estilizando a barra de navegação */
+html {
+    scroll-behavior: smooth; /* Habilita o scroll suave */
+}
+
 body {
     background-color: #1c1c1c !important;
     color: #fff !important;
