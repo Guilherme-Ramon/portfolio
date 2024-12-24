@@ -1,0 +1,197 @@
+/* Estilizando a barra de navegação */
+body {
+    background-color: #1c1c1c !important;
+    color: #fff !important;
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.navbar {
+    transition: top 0.3s;
+}
+
+.nav-link-custom {
+    color: white !important;
+}
+
+.nav-link-custom:hover {
+    color: #00ff08 !important;
+    transform: scale(1.05);
+}
+
+.nome-titulo {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+h1 span {
+    color: #00ff08;
+}
+
+.nav-link-custom,
+.link-redes-sociais {
+    font-size: 20px !important;
+}
+
+/* Estilizando a imagem */
+.sobre-img {
+    max-width: 100%;
+    border-radius: 50%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+/* Animação de flutuar */
+@keyframes flutuar {
+    from {
+        top: 0;
+    }
+    to {
+        top: 30px;
+    }
+}
+
+/* Barra de habilidades */
+.skill-bar {
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+/* Títulos */
+.titulo-verde {
+    color: #00ff08;
+}
+
+.titulo {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+/* Projetos */
+#projetos > div {
+    border: none;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #00ff08;
+    color: black;
+    transition: 0.3s;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 10px #00ff45d4;
+    transform: scale(1.1);
+    color: white !important;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    #btn-contato {
+        padding: 10px 40px;
+        background-color: #00ff08;
+        transition: 0.2s;
+        border-radius: 30px;
+        font-weight: 500;
+        color: black !important;
+    }
+
+    #btn-contato:hover {
+        box-shadow: 0 0 10px #00ff45d4;
+        transform: scale(1.2);
+        color: white !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #habilidades,
+    #contato {
+        margin-top: 150px !important;
+        margin-bottom: 150px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    header {
+        margin-top: 150px !important;
+        margin-bottom: 300px !important;
+    }
+    section {
+        margin-top: 300px !important;
+        margin-bottom: 300px !important;
+    }
+}
+
+@media (max-width: 150px) {
+    header {
+        margin-top: 300px !important;
+        margin-bottom: 350px !important;
+    }
+    section {
+        margin-top: 450px !important;
+        margin-bottom: 400px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .vh-md-100 {
+        height: 100vh;
+    }
+}
+
+#cabecalho-contato-curriculo {
+    height: 100vh; /* Padrão para telas menores */
+}
+
+@media (min-width: 1200px) {
+    #cabecalho-contato-curriculo {
+        height: 768px !important; /* Altura para telas maiores */
+    }
+}
+
+#btn-entrar-contato,
+.btn-custom-form {
+    padding: 10px 40px !important;
+    background-color: #00ff08 !important;
+    transition: 0.2s !important;
+    border-radius: 30px !important;
+    font-weight: 500 !important;
+    color: black !important;
+}
+
+#btn-entrar-contato:hover,
+.btn-custom-form:hover {
+    box-shadow: 0 0 10px #00ff45d4 !important;
+    transform: scale(1.2) !important;
+    color: white !important;
+}
+
+#projetos {
+    text-decoration: none !important;
+}
+
+.btn-ver-projeto {
+    background-color: #00ff08 !important;
+    color: white !important;
+}
+
+.btn-ver-projeto:hover {
+    box-shadow: 0 0 10px #00ff45d4 !important;
+    transition: .3s;
+}
+
+.bg-dark-custom {
+    background-color: #333 !important;
+}
