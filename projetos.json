@@ -1,0 +1,27 @@
+[
+    {
+      "titulo": "Lanchonete",
+      "descricao": "Projeto de uma lanchonete com cardápio online.",
+      "imagem": "assets/projetos/lanchonete.webp",
+      "link": "https://lanchonete-cyan.vercel.app/"
+    },
+    {
+      "titulo": "Encurta Links",
+      "descricao": "Projeto para encurtar links de forma prática.",
+      "imagem": "assets/projetos/encurtalink.webp",
+      "link": "https://encurta-links-seven.vercel.app/"
+    },
+    {
+      "titulo": "Cartão Interativo",
+      "descricao": "Projeto de cartão com validação em tempo real.",
+      "imagem": "assets/projetos/cartao.webp",
+      "link": "https://cartao-interativo-omega.vercel.app/"
+    },
+    {
+      "titulo": "Projeto Indisponível",
+      "descricao": "Em breve, mais informações sobre este projeto.",
+      "imagem": "https://via.placeholder.com/300x200?text=Projeto+Indisponível",
+      "link": "#"
+    }
+  ]
+  
