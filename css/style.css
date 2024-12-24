@@ -1,8 +1,4 @@
 /* Estilizando a barra de navegação */
-html {
-    scroll-behavior: smooth; /* Habilita o scroll suave */
-}
-
 body {
     background-color: #1c1c1c !important;
     color: #fff !important;
@@ -41,7 +37,8 @@ h1 span {
     color: #00ff08;
 }
 
-.nav-link-custom, .link-redes-socias {
+.nav-link-custom,
+.link-redes-sociais {
     font-size: 20px !important;
 }
 
@@ -61,31 +58,6 @@ h1 span {
     to {
         top: 30px;
     }
-}
-
-/* Cards */
-.card {
-    background: none !important;
-    border: none;
-    transition: 0.2s;
-    color: white !important;
-    position: relative;
-    opacity: 0.5;
-}
-
-.card-projeto:hover {
-    box-shadow: 0 0 30px #ffffff78;
-    opacity: 1;
-    transition: 0.3s;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card:hover .hover-text {
-    opacity: 1;
 }
 
 /* Barra de habilidades */
@@ -109,25 +81,23 @@ h1 span {
     border: none;
 }
 
-/* Estilo geral do card de projeto */
-.card-projeto {
-    transition: 0.9s !important;
+/* Botões */
+.btn-primary {
+    background-color: #00ff08;
+    color: black;
+    transition: 0.3s;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
 }
 
-.card-img-top,
-.scroll-projeto,
-.hover-text,
-.card-projeto {
-    border-radius: 10px !important;
-    background: none;
-    border: none !important;
+.btn-primary:hover {
+    box-shadow: 0 0 10px #00ff45d4;
+    transform: scale(1.1);
+    color: white !important;
 }
 
-.card-projeto:hover {
-    box-shadow: 0 0 30px #ffffff78;
-    opacity: 1 !important;
-}
-
+/* Responsividade */
 @media (min-width: 768px) {
     #btn-contato {
         padding: 10px 40px;
@@ -191,7 +161,6 @@ h1 span {
     }
 }
 
-
 #btn-entrar-contato,
 .btn-custom-form {
     padding: 10px 40px !important;
@@ -207,4 +176,22 @@ h1 span {
     box-shadow: 0 0 10px #00ff45d4 !important;
     transform: scale(1.2) !important;
     color: white !important;
+}
+
+#projetos {
+    text-decoration: none !important;
+}
+
+.btn-ver-projeto {
+    background-color: #00ff08 !important;
+    color: white !important;
+}
+
+.btn-ver-projeto:hover {
+    box-shadow: 0 0 10px #00ff45d4 !important;
+    transition: .3s;
+}
+
+.bg-dark-custom {
+    background-color: #333 !important;
 }
