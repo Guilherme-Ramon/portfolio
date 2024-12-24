@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const container = document.getElementById('projetos-container');
       projetos.forEach(projeto => {
         container.innerHTML += `
-          <div class="col-md-6 col-lg-4 my-3 scroll-projeto">
+          <div class="col-md-6 col-lg-4 my-3">
             <div class="card bg-dark-custom text-light shadow-sm border-0 rounded-lg overflow-hidden">
               <img src="${projeto.imagem}" class="card-img-top projeto-img" alt="${projeto.titulo}" />
               <div class="card-body p-4">
@@ -17,9 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
           </div>
         `;
-      });
-      ScrollReveal().reveal("#projetos .card", {
-        delay: 200, origin: "bottom", distance: "20px", duration: 800, easing: "ease-in-out", interval: 200, reset: true
       });
     } catch (error) {
       console.error("Erro ao carregar os projetos:", error);
