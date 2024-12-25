@@ -186,11 +186,14 @@ h1 span {
 
 .btn-ver-projeto {
     background-color: #00ff08 !important;
-    color: white !important;
+    color: #333 !important;
+    letter-spacing: 1px;
+
 }
 
 .btn-ver-projeto:hover {
     box-shadow: 0 0 10px #00ff45d4 !important;
+    color: #fff !important;
     transition: .3s;
 }
 
