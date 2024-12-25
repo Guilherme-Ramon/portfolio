@@ -45,6 +45,8 @@ h1 span {
 /* Estilizando a imagem */
 .sobre-img {
     max-width: 100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
