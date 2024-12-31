@@ -1,63 +1,92 @@
 [
-    {
-      "nome": "HTML",
-      "icone": "bi-filetype-html",
-      "cor": "text-danger"
-    },
-    {
-      "nome": "CSS",
-      "icone": "bi-filetype-css",
-      "cor": "text-primary"
-    },
-    {
-      "nome": "JavaScript",
-      "icone": "bi-filetype-js",
-      "cor": "text-warning"
-    },
-    {
-      "nome": "Bootstrap",
-      "icone": "bi-bootstrap",
-      "cor": "text-info"
-    },
-    {
-      "nome": "Tailwind",
-      "icone": "bi-gear-wide-connected",
-      "cor": "text-success"
-    },
-    {
-      "nome": "PHP",
-      "icone": "bi-code-slash",
-      "cor": "text-secondary"
-    },
-    {
-      "nome": "SQL",
-      "icone": "bi-database",
-      "cor": "text-dark"
-    },
-    {
-      "nome": "Python",
-      "icone": "bi-filetype-py",
-      "cor": "text-danger"
-    },
-    {
-      "nome": "React",
-      "icone": "bi-filetype-jsx",
-      "cor": "text-primary"
-    },
-    {
-      "nome": "JQuery",
-      "icone": "bi-ui-checks",
-      "cor": "text-info"
-    },
-    {
-      "nome": "GitHub",
-      "icone": "bi-github",
-      "cor": "text-dark"
-    },
-    {
-      "nome": "Git",
-      "icone": "bi-git",
-      "cor": "text-secondary"
-    }
-  ]
-  
+  {
+    "nome": "HTML",
+    "icone": "bi-filetype-html",
+    "cor": "text-danger"
+  },
+  {
+    "nome": "CSS",
+    "icone": "bi-filetype-css",
+    "cor": "text-primary"
+  },
+  {
+    "nome": "JavaScript",
+    "icone": "bi-filetype-js",
+    "cor": "text-warning"
+  },
+  {
+    "nome": "Bootstrap",
+    "icone": "bi-bootstrap",
+    "cor": "text-info"
+  },
+  {
+    "nome": "Tailwind",
+    "icone": "bi-gear-wide-connected",
+    "cor": "text-success"
+  },
+  {
+    "nome": "SCSS",
+    "icone": "bi-palette",
+    "cor": "text-danger"
+  },
+  {
+    "nome": "SASS",
+    "icone": "bi-palette",
+    "cor": "text-warning"
+  },
+  {
+    "nome": "Ionic",
+    "icone": "bi-phone",
+    "cor": "text-primary"
+  },
+  {
+    "nome": "PHP",
+    "icone": "bi-code-slash",
+    "cor": "text-secondary"
+  },
+  {
+    "nome": "SQL",
+    "icone": "bi-database",
+    "cor": "text-dark"
+  },
+  {
+    "nome": "Python",
+    "icone": "bi-filetype-py",
+    "cor": "text-danger"
+  },
+  {
+    "nome": "React",
+    "icone": "bi-filetype-jsx",
+    "cor": "text-primary"
+  },
+  {
+    "nome": "JQuery",
+    "icone": "bi-ui-checks",
+    "cor": "text-info"
+  },
+  {
+    "nome": "GitHub",
+    "icone": "bi-github",
+    "cor": "text-dark"
+  },
+  {
+    "nome": "Git",
+    "icone": "bi-git",
+    "cor": "text-secondary"
+  },
+  {
+    "nome": "MVC",
+    "icone": "bi-diagram-2",
+    "cor": "text-success"
+  },
+  {
+    "nome": "APIs",
+    "icone": "bi-cloud-arrow-down",
+    "cor": "text-info"
+  },
+  {
+    "nome": "WordPress",
+    "icone": "bi-wordpress",
+    "cor": "text-primary"
+  }
+]
