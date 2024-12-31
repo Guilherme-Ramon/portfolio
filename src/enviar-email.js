@@ -15,10 +15,20 @@ document.getElementById("form").addEventListener("submit", function(event) {
   emailjs.sendForm(serviceID, templateID, this)
     .then(function() {
       btn.innerText = "Mensagem Enviada"; 
-      alert("Mensagem enviada com sucesso!");
+      Swal.fire({
+        icon: 'success',
+        title: 'Mensagem Enviada!',
+        text: 'Sua mensagem foi enviada com sucesso.',
+        confirmButtonText: 'Ok'
+      });
       document.getElementById("form").reset(); 
     }, function(err) {
       btn.innerText = "Enviar Mensagem"; 
-      alert("Erro ao enviar a mensagem: " + JSON.stringify(err));
+      Swal.fire({
+        icon: 'error',
+        title: 'Erro ao Enviar',
+        text: 'Houve um erro ao enviar a mensagem: ' + JSON.stringify(err),
+        confirmButtonText: 'Ok'
+      });
     });
 });
