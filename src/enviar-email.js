@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-
-  // Inicializa o EmailJS com a chave pública
+// Inicializa o EmailJS com a chave pública
   (function() {
     emailjs.init("3qeW_wLmuQXVhICss"); // Substitua pela sua chave pública
   })();
@@ -90,4 +88,3 @@ document.getElementById("form").addEventListener("submit", function (event) {
       });
   });
 
->>>>>>> 3cfdafb (Atualização do código do portfólio)
